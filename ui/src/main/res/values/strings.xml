@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">JobSearchApp</string>
+    <string name="search">Поиск</string>
+    <string name="responses">Отклики</string>
+    <string name="favourites">Избранное</string>
+    <string name="messages">Сообщения</string>
+    <string name="profile">Профиль</string>
+    <string name="published_date">Опубликовано %1$s</string>
+    <string name="viewing_now">Сейчас просматривает %1$d человек</string>
+    <string name="hello_blank_fragment">Упс!\nЗдесь пока пусто,\nно скоро всё изменится.</string>
+    <string name="failed_open_link">Не удалось открыть ссылку</string>
+    <string name="search_icon">Search icon</string>
+    <string name="position_keywords">Должность, ключевые слова</string>
+    <string name="filters_button">Filters Button</string>
+    <string name="by_correspondence">По соответствию</string>
+    <string name="jobs_for_you">Вакансии для вас</string>
+    <string name="recommendation_icon">Иконка рекомендаций</string>
+    <string name="add_to_favorites">Добавить в избранное</string>
+    <string name="verified_company">Проверенная компания</string>
+    <string name="experience">Опыт работы</string>
+    <string name="respond">Откликнуться</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/show_more_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:fontFamily="@font/sf_pro_display_semibold"
+        android:background="@drawable/rounded_button"
+        app:backgroundTint="@null"/>
+
+
+</FrameLayout>

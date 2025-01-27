@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/searchFragment">
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.ui.searchScreen.SearchFragment"
+        android:label="Search">
+        <action
+            android:id="@+id/action_searchFragment_to_vacancyDetailsFragment"
+            app:destination="@id/vacancyDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.ui.favoritesScreen.FavoritesFragment"
+        android:label="Favorites">
+        <action
+            android:id="@+id/action_favoritesFragment_to_vacancyDetailsFragment"
+            app:destination="@id/vacancyDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/responsesFragment"
+        android:name="com.example.ui.responsesScreen.ResponsesFragment"
+        android:label="Responses" />
+    <fragment
+        android:id="@+id/messagesFragment"
+        android:name="com.example.ui.messagesScreen.MessagesFragment"
+        android:label="Messages" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.ui.profileScreen.ProfileFragment"
+        android:label="Profile" />
+    <fragment
+        android:id="@+id/vacancyDetailsFragment"
+        android:name="com.example.ui.vacancyDetailsScreen.VacancyDetailsFragment"
+        android:label="fragment_vacancy_details"
+        tools:layout="@layout/fragment_vacancy_details" />
+</navigation>
